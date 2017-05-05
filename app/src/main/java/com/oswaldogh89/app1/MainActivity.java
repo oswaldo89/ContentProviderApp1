@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         ContentValues values = new ContentValues();
-        values.put(MyProvider.users, "oswaldo.gomez@bsdap.com");
+        values.put(MyProvider.users, "oswaldo.gomez@dominio.com");
         getContentResolver().insert(MyProvider.CONTENT_URI, values);
 
 
